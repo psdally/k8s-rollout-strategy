@@ -1,0 +1,11 @@
+bases:
+- ../../base
+
+resources:
+# namespaces are provisioned with the container services portal - this is for local only
+- namespace.yaml
+
+generatorOptions:
+ disableNameSuffixHash: true
+ 
+namespace: local-demo-rolloutstrategy-ns

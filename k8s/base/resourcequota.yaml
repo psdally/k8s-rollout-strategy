@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ResourceQuota
+metadata:
+  name: default-resource-quotas
+spec:
+  hard:
+    requests.cpu: "50m"

@@ -1,0 +1,6 @@
+resources:
+- deployment.yaml
+- resourcequota.yaml
+
+generatorOptions:
+ disableNameSuffixHash: true
